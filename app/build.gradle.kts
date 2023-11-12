@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.birdtrackingapp"
+    namespace = "com.example.Bird_Watch_Pro"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.birdtrackingapp"
+        applicationId = "com.example.Bird_Watch_Pro"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

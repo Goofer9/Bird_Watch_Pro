@@ -1,4 +1,4 @@
-package com.example.birdtrackingapp
+package com.example.Bird_Watch_Pro
 
 import org.junit.Test
 
