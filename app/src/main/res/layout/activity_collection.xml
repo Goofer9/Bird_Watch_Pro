@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
             android:fontFamily="@font/montserrat"
-            android:text="16 BiIRDS HAVE BEEN CAPTURED INTO YOUR COLLECTION."
+            android:text="16 BIRDS HAVE BEEN CAPTURED INTO YOUR COLLECTION."
             android:textColor="@color/white"
             android:textSize="14sp"
             tools:ignore="MissingConstraints" />
@@ -51,7 +51,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_edit_collection"
         style="@style/ButtonWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_view_species"
         style="@style/ButtonWhite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

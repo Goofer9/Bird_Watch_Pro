@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770654711356",
+    "project_id": "bird-watch-pro-1170c",
+    "storage_bucket": "bird-watch-pro-1170c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770654711356:android:554b7ed40abe383891dd39",
+        "android_client_info": {
+          "package_name": "com.example.Bird_Watch_Pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGWzByNEgY1b_lqWLCifB7TTv0q9izyLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
