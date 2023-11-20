@@ -9,6 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/whatsapp_image_2023_11_14_at_10_00_14" />
+        android:src="@drawable/birdwatchpro" />
 
 </RelativeLayout>
