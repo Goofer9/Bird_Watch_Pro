@@ -1,25 +1,21 @@
 package com.example.Bird_Watch_Pro
 
 import android.content.Intent
-import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import android.os.Bundle
+import com.example.birdview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        btn_login.setOnClickListener {
-            // Handle login button click
-            startActivity(Intent(this, LoginActivity::class.java))
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btnLogin.setOnClickListener {
+            startActivity(Intent(this, Login::class.java))
         }
-
-        btn_register.setOnClickListener {
-            // Handle register button click
-            Toast.makeText(this, "Register button clicked", Toast.LENGTH_SHORT).show()
-            // You can navigate to the registration screen or perform other actions
+        binding.btnRegister.setOnClickListener {
+            startActivity(Intent(this, Register::class.java))
         }
     }
 }
